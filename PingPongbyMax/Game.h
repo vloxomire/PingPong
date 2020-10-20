@@ -3,9 +3,9 @@
 class Game
 {
 public:
-Game();
-~Game();
+    Game();
+    ~Game();
 private:
-void Init();
+    void Init();
 };
 #endif

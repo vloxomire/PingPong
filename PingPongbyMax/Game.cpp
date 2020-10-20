@@ -1,18 +1,18 @@
 #include<iostream>
-class Game
-{
-    Game()
+#include"Game.h"
+
+    Game::Game()
     {
     std::cout<<"Construyendo...\n";
     Init();
     };
-    ~Game()
+    Game::~Game()
     {
     std::cout<<"Destruyendo...\n";
     };
-    void Init()
+    void Game::Init()
     {
 
     };
-};
+
 

@@ -1,4 +1,11 @@
 # depslib dependency file v1.0
-1603150771 source:c:\0-cursos\c++\pingpong\pingpongbymax\game.cpp
+1603193872 source:c:\0-cursos\c++\pingpong\pingpongbymax\game.cpp
 	<iostream>
+	"Game.h"
+
+1603193901 source:c:\0-cursos\c++\pingpong\pingpongbymax\main.cpp
+	<iostream>
+	"Game.h"
+
+1603193803 c:\0-cursos\c++\pingpong\pingpongbymax\game.h
 

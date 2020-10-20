@@ -2,7 +2,7 @@
 #include "Game.h"
 int main()
 {
-    std::cout<<"Hola";
-    Game.juego;
+    std::cout<<"q tal";
+    Game j;
     return 0;
 };
