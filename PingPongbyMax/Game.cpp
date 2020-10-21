@@ -1,5 +1,6 @@
 #include"Game.h"
 #include<SFML/Window.hpp>
+#include<SFML/Graphics.hpp>
 #include<iostream>
 
     Game::Game()
@@ -20,7 +21,9 @@
 
     void Game::Play()
     {
-        sf::Window ventana(sf::VideoMode(600,600),"SE ESTA PRENDIENDO, ESTA MIERDA!!!");
+        //Ventana
+        sf::RenderWindow ventana(sf::VideoMode(gameWidth,gameHeight),"SE ESTA PRENDIENDO, ESTA MIERDA!!!");
+        ventana.setFramerateLimit(60);
         while(ventana.isOpen())
             {
                 sf::Event evento;
@@ -29,6 +32,9 @@
                                 if(evento.type==sf::Event::Closed)
                                 ventana.close();
                         }
-
+                ventana.clear(sf::Color(50,200,50));
+                //ventana.draw();
+                //Dibuja en ventana
+                ventana.display();
             }
     };

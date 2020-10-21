@@ -7,6 +7,8 @@ public:
     ~Game();
     void Play();
 private:
+    unsigned int gameWidth{800};
+    unsigned int gameHeight{600};
     void Init();
 };
 #endif
