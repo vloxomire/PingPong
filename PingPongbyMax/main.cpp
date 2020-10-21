@@ -1,8 +1,10 @@
-#include <iostream>
 #include "Game.h"
+#include <iostream>
+#include<SFML/Window.hpp>
+
 int main()
 {
-    std::cout<<"q tal";
     Game j;
+    j.Play();
     return 0;
 };
