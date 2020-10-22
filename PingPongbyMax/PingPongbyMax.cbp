@@ -15,6 +15,7 @@
 					<Add option="-g" />
 					<Add directory="C:/libs/SFML-2.5.1/include" />
 					<Add directory="include" />
+					<Add directory="./" />
 				</Compiler>
 				<Linker>
 					<Add library="C:/libs/SFML-2.5.1/lib/libsfml-graphics-d.a" />
@@ -31,6 +32,7 @@
 				<Compiler>
 					<Add option="-O2" />
 					<Add directory="include" />
+					<Add directory="./" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -45,8 +47,12 @@
 		</Compiler>
 		<Unit filename="Game.cpp" />
 		<Unit filename="Game.h" />
+		<Unit filename="circulo.cpp" />
+		<Unit filename="circulo.h" />
 		<Unit filename="include/Figuras.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="paddle.cpp" />
+		<Unit filename="paddle.h" />
 		<Unit filename="src/Figuras.cpp" />
 		<Extensions />
 	</Project>

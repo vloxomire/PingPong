@@ -24,17 +24,39 @@
         //Ventana
         sf::RenderWindow ventana(sf::VideoMode(gameWidth,gameHeight),"SE ESTA PRENDIENDO, ESTA MIERDA!!!");
         ventana.setFramerateLimit(60);
+        sf::Clock relog;
         while(ventana.isOpen())
             {
+                //Manejadora de eventos
                 sf::Event evento;
                     while(ventana.pollEvent(evento))
                         {
-                                if(evento.type==sf::Event::Closed)
-                                ventana.close();
+                            //ventana cerrar o presionar esc: salir
+                                if((evento.type==sf::Event::Closed) || ((evento.type==sf::Event::KeyPressed)&&(evento.key.code==sf::Keyboard::Escape)))
+                                {
+                                    ventana.close();
+                                    break;
+                                }
                         }
+                        //Limpiar ventana
                 ventana.clear(sf::Color(50,200,50));
-                //ventana.draw();
+                Dibujar(ventana);
+
                 //Dibuja en ventana
                 ventana.display();
+            }
+
+            void Game::Dibujar(sf::RenderWindow &v)
+            {
+                if(estaJugando)
+                    {
+                            //v.draw();
+                            //v.draw();
+                            //v.draw();
+                    }
+                else
+                    {
+                        //v.draw();
+                    }
             }
     };

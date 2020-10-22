@@ -10,7 +10,8 @@
 	<iostream>
 	<SFML/Window.hpp>
 
-1603301835 c:\0-cursos\c++\pingpong\pingpongbymax\game.h
+1603377864 c:\0-cursos\c++\pingpong\pingpongbymax\game.h
+	<SFML/graphics.hpp>
 
 1525812018 c:\libs\sfml-2.5.1\include\sfml\window.hpp
 	<SFML/System.hpp>
@@ -421,10 +422,22 @@
 	<SFML/Graphics/Drawable.hpp>
 	<SFML/Window/GlResource.hpp>
 
-1603304113 source:c:\0-cursos\c++\pingpong\pingpongbymax\src\figuras.cpp
+1603377111 source:c:\0-cursos\c++\pingpong\pingpongbymax\src\figuras.cpp
 	"Figuras.h"
 	<iostream>
 
-1603304607 c:\0-cursos\c++\pingpong\pingpongbymax\include\figuras.h
+1603372208 c:\0-cursos\c++\pingpong\pingpongbymax\include\figuras.h
 	<SFML/Graphics.hpp>
+
+1603376825 source:c:\0-cursos\c++\pingpong\pingpongbymax\circulo.cpp
+	"circulo.h"
+
+1603375916 c:\0-cursos\c++\pingpong\pingpongbymax\circulo.h
+	<Figuras.h>
+
+1603374538 source:c:\0-cursos\c++\pingpong\pingpongbymax\paddle.cpp
+	"paddle.h"
+
+1603375637 c:\0-cursos\c++\pingpong\pingpongbymax\paddle.h
+	<Figuras.h>
 
