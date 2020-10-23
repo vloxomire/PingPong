@@ -15,4 +15,12 @@ Figuras::~Figuras()
 {
     std::cout<<"Destruyendo figura....\n";
 }
+void Figuras::Init()
+{
+
+}
+
+void Figuras::Draw(){}
+
+void Figuras::Actualizar(){}
 

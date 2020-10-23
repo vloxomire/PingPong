@@ -9,13 +9,17 @@ class Circulo : protected Figuras
     public:
         Circulo();
         virtual ~Circulo();
+        void Draw(sf::RenderWindow &ventana);
+        void Actualizar();
+        sf::CircleShape esfera;
 
     protected:
 
     private:
-        sf::CircleShape esfera;
-        float radio;
         void Init();
+
+
+        float radio;
 };
 
 #endif // CIRCULO_H

@@ -11,6 +11,7 @@ class Paddle : protected Figuras
     protected:
 
     private:
+
 };
 
 #endif // PADDLE_H
