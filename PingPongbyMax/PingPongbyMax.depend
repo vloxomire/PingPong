@@ -1,16 +1,16 @@
 # depslib dependency file v1.0
-1603413455 source:c:\0-cursos\c++\pingpong\pingpongbymax\game.cpp
+1603450481 source:c:\0-cursos\c++\pingpong\pingpongbymax\game.cpp
 	"Game.h"
 	<SFML/Window.hpp>
 	<SFML/Graphics.hpp>
 	<iostream>
 
-1603241838 source:c:\0-cursos\c++\pingpong\pingpongbymax\main.cpp
+1603278732 source:c:\0-cursos\c++\pingpong\pingpongbymax\main.cpp
 	"Game.h"
 	<iostream>
 	<SFML/Window.hpp>
 
-1603411637 c:\0-cursos\c++\pingpong\pingpongbymax\game.h
+1603456959 c:\0-cursos\c++\pingpong\pingpongbymax\game.h
 	<SFML/graphics.hpp>
 	"Circulo.h"
 
@@ -427,18 +427,18 @@
 	"Figuras.h"
 	<iostream>
 
-1603415478 c:\0-cursos\c++\pingpong\pingpongbymax\include\figuras.h
+1603456959 c:\0-cursos\c++\pingpong\pingpongbymax\include\figuras.h
 	<SFML/Graphics.hpp>
 
-1603413555 source:c:\0-cursos\c++\pingpong\pingpongbymax\circulo.cpp
+1603450481 source:c:\0-cursos\c++\pingpong\pingpongbymax\circulo.cpp
 	"circulo.h"
 
-1603413555 c:\0-cursos\c++\pingpong\pingpongbymax\circulo.h
+1603450481 c:\0-cursos\c++\pingpong\pingpongbymax\circulo.h
 	<Figuras.h>
 
-1603405989 source:c:\0-cursos\c++\pingpong\pingpongbymax\paddle.cpp
+1603374538 source:c:\0-cursos\c++\pingpong\pingpongbymax\paddle.cpp
 	"paddle.h"
 
-1603414750 c:\0-cursos\c++\pingpong\pingpongbymax\paddle.h
+1603450481 c:\0-cursos\c++\pingpong\pingpongbymax\paddle.h
 	<Figuras.h>
 

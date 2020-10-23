@@ -14,7 +14,7 @@ private:
     void Init();
     //void Dibujar(sf::RenderWindow);
     bool estaJugando;
-    Circulo c;
+    sf::Shape * formasVector[]={new Circulo(),new Paddle(),new Paddle()};
 
 };
 #endif

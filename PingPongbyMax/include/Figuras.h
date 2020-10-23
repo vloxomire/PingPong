@@ -17,6 +17,5 @@ class Figuras
         virtual void Draw();
         virtual void Actualizar();
     private:
-        sf::Shape m_shape;
 };
 #endif // FIGURAS_H
